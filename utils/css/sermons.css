@@ -1,0 +1,93 @@
+.ca-image {
+  display: block;
+  margin: auto;
+}
+
+.ca-text-center {
+  text-align: center;
+}
+
+.ca-bold {
+  font-weight: 700 !important;
+}
+
+.sermon-heading {
+  margin: 10px;
+}
+
+.sermon-heading h1 {
+  font-size: 2rem !important;
+  margin-bottom: 0px !important;
+}
+
+.ca-mt-10 {
+  margin-top: 10px !important;
+}
+
+.cs-play-sermon {
+  border-radius: 100% !important;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  background-color: #45909d;
+}
+
+.cs-play-sermon-list {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  border-radius: 100% !important;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  background-color: #45909d;
+}
+
+.cs-play-sermon-small {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.cs-play-sermon-small > img {
+    height: 15px;
+    margin-left: 2px;
+    margin-top: -2px;
+}
+
+.cs-button-pusher {
+}
+
+.cs-play-icon {
+  height: 30px;
+  margin-left: 5px;
+}
+
+.ca .badge-pill {
+  padding: 10px 5px !important;
+}
+
+.ca .pill {
+  margin-bottom: 0px;
+}
+
+/** Admin Styles **/
+.cs-ad-image {
+  max-width: 100%;
+}
+
+#toplevel_page_connected-sermons
+  > a
+  > div.wp-menu-image.dashicons-before
+  > img {
+  width: 20px;
+  padding-top: 7px;
+  opacity: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .cs-ad-image {
+    max-width: 512px;
+  }
+}
